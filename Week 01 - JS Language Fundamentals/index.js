@@ -1,6 +1,4 @@
-// Week 01: JS Language Fundamentals
-
-console.log('\n # Recommended ##################################################################################################### \n\n');
+// Week 01: JS Language Fundamentals #########################################################################################
 
 // 1. Create a variable with your name
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
@@ -109,9 +107,7 @@ function printPosts(data) {
   });
 }
 
-// Optional *************************************************************************
-
-console.log('\n # Optional ######################################################################################################## \n\n');
+// Optional ##################################################################################################################
 
 // 1. Create variables of different data types
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
