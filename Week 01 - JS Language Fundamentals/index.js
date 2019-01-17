@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-
 // Week 01: JS Language Fundamentals
 
 console.log('\n # Recommended ##################################################################################################### \n\n');
@@ -57,9 +52,7 @@ console.log(ids);
 // 7. Loop over the ids and log them all out
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
-ids.forEach((e) => {
-  console.log(e);
-});
+ids.forEach((e) => { console.log(e); });
 
 // 8. Create an array of post objects. Include an id, title and content property on each object
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
@@ -109,6 +102,7 @@ posts.forEach((e) => {
 });
 
 // 10. Create a function that will take an array of posts and log out the title and content of each post.
+
 function printPosts(data) {
   data.forEach((e) => {
     console.log(e.title + '\n' + e.content);
@@ -182,7 +176,3 @@ console.log(mod(2, 3));
 console.log(pow(2, 3));
 
 // 3. Create objects with properties and methods
-
-</script>
-</body>
-</html>
