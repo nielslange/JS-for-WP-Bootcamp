@@ -1,4 +1,4 @@
-# Week 2: The DOM & Handling Events
+# Week 02: The DOM & Handling Events
 
 > Get a firm grasp of how the DOM and Events API really work under the hood.  Great prep for React and JSX.
 

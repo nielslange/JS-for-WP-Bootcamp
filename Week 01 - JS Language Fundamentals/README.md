@@ -1,4 +1,4 @@
-# Week 1: JS Language Fundamentals
+# Week 01: JS Language Fundamentals
 
 > Learn the basics of the JavaScript language at a very in-depth level.  Understand how JavaScript compares to other programming languages.
 
