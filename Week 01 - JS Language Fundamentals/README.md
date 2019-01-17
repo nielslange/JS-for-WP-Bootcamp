@@ -12,14 +12,3 @@
 8. Create an array of post objects. Include an id, title and content property on each object
 9. Loop over the array of posts and log out the title of each one
 10. Create a function that will take an array of posts and log out the title and content of each post.
-
-
-- Week 2: The DOM & Handling Events
-- Week 3: API Calls, JSON & Local Storage
-- Week 4: Dev Tools, Workflows & VanillaPress
-- Week 5: Advanced Topics in JavaScript
-- Week 6: JS in WP Plugins & Themes
-- Week 7: The WordPress REST API
-- Week 8: Introduction to React and JSX
-- Week 9: WP Block Development
-- Week 10-12: Final Projects
