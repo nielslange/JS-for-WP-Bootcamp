@@ -41,6 +41,7 @@ var loggedIn = true;
 
 ```
 var message = loggedIn ? 'Logged In' : 'Please login';
+console.log(message);
 ```
 
 6. Create an array called ids filled with numbers that could represent post ids
