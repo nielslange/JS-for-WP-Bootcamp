@@ -111,4 +111,5 @@ function printPosts(data) {
     console.log(e.title + '\n' + e.content);
   });
 }
+printPosts(posts);
 ```
