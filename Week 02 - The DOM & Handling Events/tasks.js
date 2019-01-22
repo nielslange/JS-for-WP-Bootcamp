@@ -25,3 +25,6 @@
 // 9. Create a simple lightbox that pops up with a full size image when any image inside of a container with a class of "lightbox" is clicked on.
 
 // 10. Create a form with an input and textarea that let's you add a post title and content. Create a live preview of the form that let's you see what the title and content would look like on the page.
+
+// Optional ##################################################################################################################
+
