@@ -1,0 +1,25 @@
+body {
+  background: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+.content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.active {
+  border: 4px #f7b733 solid;
+}
