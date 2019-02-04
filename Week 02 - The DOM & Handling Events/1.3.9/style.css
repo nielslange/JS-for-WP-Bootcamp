@@ -1,0 +1,108 @@
+body {
+  background: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+.content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.secret {
+  display: none;
+}
+
+.active {
+  border: 4px #f7b733 solid;
+}
+
+fieldset {
+  background: #efefef;
+  border: 1px #999 dotted;
+  margin-bottom: 10px;
+}
+
+legend {
+  background: #fff;
+  border: 1px #999 solid;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+abbr {
+  border-bottom: 1px dotted #222;
+}
+
+#main-contact {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+#main-contact fieldset {
+
+}
+
+#main-contact label {
+  display: block;
+  margin: 5px 0;
+}
+
+#main-contact input,
+#main-contact select,
+#main-contact textarea {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#main-contact textarea {
+  width: calc(100% - 10px);
+  max-width: 40rem;
+  min-height: 8rem;
+}
+
+#main-contact input[type="submit"],
+#main-contact input[type="reset"] {
+  background: green;
+  border: green;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#main-contact input[type="reset"] {
+  background: red;
+  border: red;
+}
+
+button.help {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+button.help:hover {
+  cursor: pointer;
+  border-color: #ccc;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px #ddd solid;
+  color: inherit;;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #f7b733;
+  border-color: #777;
+}
