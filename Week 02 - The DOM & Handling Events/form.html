@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <style>
+      input, textarea {
+        width: 300px;
+        margin: 5px;
+        padding: 5px;
+      }
+      input[type=submit],
+      input[type=reset] {
+        width: 144px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <form action="#" method="POST">
+      <input type="text" name="name" id="formName" placeholder="Name"><br>
+      <input type="text" name="email" id="formEmail" placeholder="Email"><br>
+      <input type="text" name="phone" id="formPhone" placeholder="Phone"><br>
+      <textarea name="message" id="formMessage" cols="30" rows="10"></textarea><br>
+      <input type="submit">
+      <input type="reset">
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+    
+    const form = document.querySelector('form');
+    form.addEventListener('submit', handleForm);
+
+    function handleForm(event) {
+
+      event.preventDefault();
+      
+      console.info('Start form handling');
+
+      const name = document.querySelector('#formName');
+      const email = document.querySelector('#formEmail');
+      const phone = document.querySelector('#formPhone');
+      const message = document.querySelector('#formMessage');
+      const result = document.querySelector('#result');
+      
+      result.innerHTML = 'Name: ' + name.value + '<br>' + 
+                         'Email: ' + email.value + '<br>' + 
+                         'Phone: ' + phone.value + '<br>' + 
+                         'Message: ' + message.value;
+
+      console.info('End form handling');
+    }
+    
+    </script>
+
+  </body>
+</html>
