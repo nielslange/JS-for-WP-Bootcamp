@@ -1,4 +1,4 @@
-# Quiz
+# JavaScript Language Basics Quiz
 
 > In this quiz we test our basic understanding of the JavaScript language.
 
