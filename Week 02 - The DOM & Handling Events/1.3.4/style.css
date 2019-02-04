@@ -1,0 +1,23 @@
+body {
+  background: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+.content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+#contact {
+  background: #efefef;
+  border: 1px #999 dotted;
+  padding: 20px;
+  margin: 20px;
+}
