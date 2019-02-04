@@ -1,6 +1,18 @@
-// Week 02: The DOM & Handling Events ########################################################################################
+// Week 02: The DOM & Handling Events ###############################################
 
 // 1. Select the following elements from the page and log them to the console: All the links on the page, the element with an id of "main," all elements with a class of "featured," the first element with a class of "featured."
+
+// - All the links on the page,
+var links = document.querySelectorAll('a');
+console.log(links);
+
+// - The element with an id of "main,"
+var main = document.querySelector('#main');
+console.log(main);
+
+// - The first element with a class of "featured."
+var featured = document.querySelector('.featured');
+console.log(featured);
 
 // 2. Select the element with an id of "start-here." Then select the syblings of the element, the parent of the element, the parent of the parent of the element, and the children of the element and save them as variables. Then log them all to the console.
 
@@ -26,5 +38,5 @@
 
 // 10. Create a form with an input and textarea that let's you add a post title and content. Create a live preview of the form that let's you see what the title and content would look like on the page.
 
-// Optional ##################################################################################################################
+// Optional #########################################################################
 
