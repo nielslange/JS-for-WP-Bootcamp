@@ -1,0 +1,30 @@
+body {
+  background: #efefef;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: sans-serif;
+}
+
+.content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 60%;
+}
+
+.toggle {
+  display: none;
+  border: 1px #ccc solid;
+}
+
+.toggle .child {
+  border: 1px #ccc dotted;
+}
+
+.hidden {
+  display: none
+}
