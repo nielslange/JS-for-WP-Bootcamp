@@ -1,0 +1,12 @@
+[
+  {
+    "id":1,
+    "title":"Hello world!",
+    "content":"Welcome to WordPress!"
+  },
+  {
+    "id":2,
+    "title":"Hello JSON!",
+    "content":"Welcome to the WP JSON API!"
+  }
+]
