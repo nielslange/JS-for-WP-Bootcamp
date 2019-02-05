@@ -26,6 +26,11 @@
   <script>
 
     // 5. Create a clone of the list item and append it to the end of the list.
+    var old_item = document.querySelector('.post');
+    var new_item = old_item.cloneNode(true);
+
+    var list = document.querySelector('.posts');
+    list.appendChild(new_item);
     
   </script>
 </html>
