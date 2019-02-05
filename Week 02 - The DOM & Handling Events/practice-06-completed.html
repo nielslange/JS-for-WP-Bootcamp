@@ -48,6 +48,15 @@
   <script>
 
     // 6. Create an event handler on all links with a class of "special" that prevents the event default and logs the text of the link and the url of the link to the console.
-    
+    var links = document.querySelectorAll('.special');
+
+    for (let link of links) {
+      link.addEventListener('click', function(event) { 
+        event.preventDefault()
+        console.log('Title: ' + link.innerHTML);
+        console.log('URL: ' + link.getAttribute('href'));
+       });
+    } 
+
   </script>
 </html>
