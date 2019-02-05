@@ -20,5 +20,28 @@
     //     </div>
     // </article>
     
+    var paragraph = document.createElement('p');
+    paragraph.innerHTML = 'Excerpt here...';
+
+    var division = document.createElement('div');
+    division.className = 'entry-excerpt';
+    division.appendChild(paragraph);
+
+    var anchor = document.createElement('a');
+    anchor.setAttribute('href', '#');
+    anchor.innerHTML = 'Title';
+
+    var headline = document.createElement('h2');
+    headline.className = 'entry-title';
+    headline.appendChild(anchor);
+
+    var article = document.createElement('article');
+    article.className = 'post';
+    article.appendChild(headline);
+    article.appendChild(division);
+
+    var root = document.querySelector('#root');
+    root.appendChild(article);
+
   </script>
 </html>
