@@ -30,6 +30,30 @@
   <script>
 
     // 7. Add an event handler to the form that prevents the default event, removes the form from the page and displays a thank you message with the person's name and email.
-    
+    var form = document.querySelector('form');
+    var main = document.querySelector('#main');
+
+    form.addEventListener('submit', function(event) {
+      
+      // Prevent form from being submitted again
+      event.preventDefault();
+      
+      // Hide form (not needed in this case, as innerHTML hides both title and form)
+      //form.style.display = 'none';
+      
+      // Get submitter name
+      var submitterName = document.querySelector('#name').value;
+      
+      // Get submitter email
+      var submitterEmail = document.querySelector('#email').value;
+      
+      // Prepare message
+      var message = 'Thank you, <strong>' + submitterName + ' </strong>, for your message.<br>' + 
+                    'A copy had been sent to <strong>' + submitterEmail + '</strong>.';
+      
+      // Append message
+      main.innerHTML = message;
+    });
+
   </script>
 </html>
