@@ -29,10 +29,16 @@
   <script>
 
     // 3. Set the text for the h2 to "Newsletter Signup,"
+    var title = document.querySelector('h2');
+    title.innerHTML = 'Newsletter Signup'
 
     // set the value for the name input field to your name,
-    
+    var inputName = document.querySelector('#name');
+    inputName.value = 'Niels Lange';
+
     // set the value for the email input field to your email.
+    var inputEmail = document.querySelector('#email');
+    inputEmail.value = 'info@nielslange.de';
 
   </script>
 </html>
